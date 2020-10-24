@@ -1,14 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import CardGrid from './Componments/CardGrid/CardGrid'
 import Navbar from'./Componments/Navbar/Navbar'
-
+import Main from './Componments/Main/Main'
 function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
-      <CardGrid></CardGrid>
+      <Main></Main>
       
     </div>
   );

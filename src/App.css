@@ -1,5 +1,10 @@
+body {
+  background-image: url('https://picsum.photos/2000/1000') !important;
+}
 #Navbar{
   text-align: center;
+  margin:0;
+  border:none;
 }
 #Navbar>nav{
   display: inline;
@@ -7,4 +12,40 @@
 }
 #Navbar>nav>h1{
   display: inline;
+}
+
+#jumbo-from {
+  padding: 10% 20%;
+}
+#bigcard{
+  margin:10px;
+  padding-left: 30%;
+  height: 100px;
+}
+#cardheader{
+  font-size: 70px;
+  text-align: center;
+  padding-top: 15%;
+  color:white !important
+}
+#cardheaderdata{
+  text-align: center;
+  font-size: 20px;
+  padding-top: 4%;
+  padding-left: 10%;
+  color:white !important
+}
+#title{
+  color:white
+}
+.float-left,
+.float-right {
+  display: inline;
+}
+.text{
+  color:white !important
+}
+.card{
+  background-color:#00000098 !important;
+  box-shadow: none !important;
 }
